@@ -19,5 +19,12 @@ export default defineConfig([
       ecmaVersion: 2020,
       globals: globals.browser,
     },
+    rules: {
+      'semi': ['error', 'always', { 'omitLastInOneLineBlock': false}],
+		  'comma-dangle': ['error', 'never'],
+		  quotes: ['error', 'single'],
+		  'react/prop-types': [0],
+		  'indent': ['error', 'tab']
+    }
   },
 ])
