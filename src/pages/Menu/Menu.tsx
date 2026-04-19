@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import Headling from '../../components/Headling/Headling';
-import ProductCard from '../../components/ProductCard/ProductCard';
 import Search from '../../components/Search/Search';
 import { PREFIX } from '../../helpers/API';
 import type { Product } from '../../interfaces/product.interface';
