@@ -33,6 +33,7 @@ function Login() {
 				email,
 				password
 			});
+			console.log(data);
 		} catch (error) {
 			if (error instanceof AxiosError) {
 				setError(error.response?.data.message);
